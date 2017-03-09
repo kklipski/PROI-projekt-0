@@ -1,4 +1,5 @@
 #include <iostream>
+#include "funkcje1.hpp"
 
 using namespace std;
 
@@ -11,6 +12,9 @@ int main()
     cin>>surname;
     cout<<"Write pseudonym:"<<endl;
     cin>>pseudo;
+    vowelstoz(name);
+    vowelstoz(surname);
+    vowelstoz(pseudo);
     cout<<name<<" "<<surname<<" "<<"\""<<pseudo<<"\""<<endl;
     return 0;
 }
