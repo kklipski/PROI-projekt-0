@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="funkcje1.cpp" />
 		<Unit filename="funkcje1.hpp" />
+		<Unit filename="funkcje2.cpp" />
+		<Unit filename="funkcje2.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<envvars />

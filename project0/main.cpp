@@ -1,5 +1,6 @@
 #include <iostream>
 #include "funkcje1.hpp"
+#include "funkcje2.hpp"
 
 using namespace std;
 
@@ -15,6 +16,9 @@ int main()
     vowelstoz(name);
     vowelstoz(surname);
     vowelstoz(pseudo);
+    reverseStr(name);
+    reverseStr(surname);
+    reverseStr(pseudo);
     cout<<name<<" "<<surname<<" "<<"\""<<pseudo<<"\""<<endl;
     return 0;
 }
